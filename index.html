@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Ensures the website is responsive on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compatibility mode for older versions of Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- The title of the page, shown in the browser tab -->
+    <title>Twum-Boama Jesse - Portfolio</title>
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header section containing the navigation bar -->
+    <header>
+        <nav>
+            <ul>
+                <!-- Navigation links for different sections of the page -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <!-- Personal introduction paragraph -->
+        <p>Hi! I'm Twum-Boama Jesse, a passionate web developer with a strong background in data science, data analysis, and AI. I enjoy building solutions that solve real-world problems and am constantly exploring new technologies to enhance my skills.</p>
+    </section>
+
+    <!-- Skills section displaying icons of technologies -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-icons">
+            <!-- Icons representing different skills or technologies -->
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+            <img src="https://img.icons8.com/?size=48&id=6kZdxe7t8OL1&format=png" alt="Microsoft Office" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+            <img src="https://cdn-icons-png.flaticon.com/128/1051/1051277.png" alt="HTML" />
+            <img src="https://cdn-icons-png.flaticon.com/128/11516/11516361.png" alt="CSS" />
+        </div>
+    </section>
+
+    <!-- Education section listing academic qualifications -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Science in Computer Science, University for Development Studies, Ghana, 2022</li>
+            <li>Certified Data Science and AI Specialist, Coursera</li>
+        </ul>
+        <!-- Link to download the CV -->
+        <a href="TWUM-BOAMA JESSE CURRICULUM VITAE.pdf" download>Download CV</a>
+    </section>
+
+    <!-- Interests section -->
+    <section id="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li><strong>Microsoft Suite</strong>: Proficient in Excel, Word, and PowerPoint for data analysis and productivity.</li>
+            <li><strong>Data Science</strong>: Analyzing data to derive insights and build predictive models.</li>
+            <li><strong>Software Development</strong>: Exploring the latest trends and technologies in web development.</li>
+            <li><strong>Tech Innovations</strong>: Staying abreast of and utilizing cutting-edge technologies and emerging trends.</li>
+            <li><strong>Database Management</strong>: Designing and optimizing databases for performance and scalability.</li>
+        </ul>
+    </section>
+
+    <!-- Projects section showing a sample project -->
+    <section id="projects">
+        <h2>My Work and Future Projects</h2>
+        <p>While I am currently in the early stages of building my portfolio, I am actively working on several exciting projects and learning opportunities. Here’s a glimpse of what’s coming:</p>
+
+        <div class="project-item">
+            <h3>Personal Finance Tracker</h3>
+            <p><strong>Description:</strong> Creating a personal finance management application that tracks expenses, categorizes transactions, and provides budgeting tools.</p>
+            <p><strong>Expected Technologies:</strong> MySQL, JavaScript, Node.js.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Predictive Maintenance System</h3>
+            <p><strong>Description:</strong> Developing a predictive maintenance system for industrial machinery using historical performance data. The system will predict equipment failures and suggest maintenance schedules to reduce downtime and operational costs.</p>
+            <p><strong>Expected Technologies:</strong> Python, TensorFlow.</p>
+        </div>
+    </section>
+
+    <!-- Contact form section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        
+        <!-- Modal for contact form -->
+        <!-- This modal is initially hidden and will be displayed when triggered -->
+        <div id="contact-form-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5);">
+            <div style="background:rgb(54, 54, 54); margin:100px auto; padding:20px; width:80%; max-width:600px;">
+                <!-- Close button for the modal -->
+                <span onclick="document.getElementById('contact-form-modal').style.display='none'" style="float:right; cursor:pointer;">&times;</span>
+                
+                <h2>Contact Me</h2>
+                <!-- Contact form that sends data to Getform.io for processing -->
+                <form action="https://getform.io/f/broljyla" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Link to trigger the display of the contact form modal -->
+        <!-- Clicking this link will make the modal visible -->
+        <a href="#contact-form-modal" onclick="document.getElementById('contact-form-modal').style.display='block'">Click Here To Contact Me.</a>
+    </section>    
+
+    <!-- Footer section with copyright information -->
+    <footer>
+        <p>© 2024 Twum-Boama Jesse. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

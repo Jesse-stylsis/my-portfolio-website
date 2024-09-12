@@ -1,0 +1,184 @@
+/* Apply a consistent box model and remove default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif; /* Set the font family */
+    line-height: 1.6; /* Increase line height for better readability */
+    color: rgb(182, 180, 178); /* Set text color */
+    padding: 20px; /* Add padding around the content */
+
+    /* Background styling */
+    background-image: url('https://img.freepik.com/free-vector/abstract-background-design-black_53876-62802.jpg?t=st=1726064077~exp=1726067677~hmac=a1f15d96a322a08d377fa537982ec8ac3316506c0060a6415497e918e21dec2a&w=1380');
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-position: center; /* Center the background image */
+}
+
+/* Styling for the header */
+header {
+    background-color: rgb(228, 155, 73); /* Set background color */
+    padding: 10px 0; /* Add vertical padding */
+}
+
+/* Styling for the navigation menu */
+nav ul {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the items horizontally */
+    list-style: none; /* Remove default list styling */
+}
+
+nav ul li {
+    margin: 0 15px; /* Add horizontal spacing between list items */
+}
+
+nav ul li a {
+    color: #725b38; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make link text bold */
+}
+
+nav ul li a:hover {
+    color: #c2c0bd; /* Change color on hover */
+}
+
+/* Styling for section elements */
+section {
+    margin: 40px 0; /* Add vertical spacing between sections */
+    text-align: center; /* Center-align text */
+}
+
+/* Styling for section headings */
+h2 {
+    font-size: 2rem; /* Set font size for headings */
+    margin-bottom: 20px; /* Add space below headings */
+    color: #725b38; /* Set heading color */
+}
+
+/* Styling for paragraph text */
+p {
+    font-size: 1.2rem; /* Set font size for paragraphs */
+    max-width: 700px; /* Limit the width of paragraphs */
+    margin: 0 auto 30px; /* Center the paragraph and add bottom margin */
+}
+
+/* Styling for skills icons */
+.skills-icons {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the icons horizontally */
+    gap: 20px; /* Add space between icons */
+}
+
+.skills-icons img {
+    width: 50px; /* Set icon width */
+    height: 50px; /* Set icon height */
+}
+
+/* Styling for the education section */
+#education ul {
+    list-style: none; /* Remove default list styling */
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+#education a {
+    display: inline-block; /* Make the link an inline block element */
+    background-color: #333; /* Set background color for the button */
+    color: rgb(228, 155, 73); /* Set text color */
+    padding: 10px 20px; /* Add padding inside the button */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Round the corners of the button */
+}
+
+#education a:hover {
+    background-color: #504f4f; /* Change background color on hover */
+}
+
+/* Styling for project items */
+.project-item {
+    margin-bottom: 30px; /* Add bottom margin */
+}
+
+.project-item a {
+    display: inline-block; /* Make the link an inline block element */
+    margin: 10px; /* Add margin around the link */
+    color: #333; /* Set link color */
+    text-decoration: underline; /* Underline the link */
+}
+
+.project-item a:hover {
+    color: #ffa500; /* Change color on hover */
+}
+
+/* Styling for forms */
+form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange form elements in a column */
+    align-items: center; /* Center-align form elements */
+    gap: 15px; /* Add space between form elements */
+}
+
+form input, form textarea {
+    width: 50%; /* Set width of form elements */
+    padding: 10px; /* Add padding inside form elements */
+    border: 1px solid #333; /* Add border */
+    border-radius: 5px; /* Round the corners of form elements */
+    font-size: 1rem; /* Set font size */
+}
+
+form button {
+    padding: 10px 20px; /* Add padding inside the button */
+    border: none; /* Remove default border */
+    background-color: #333; /* Set background color */
+    color: rgb(95, 94, 94); /* Set text color */
+    font-size: 1rem; /* Set font size */
+    border-radius: 5px; /* Round the corners of the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+form button:hover {
+    background-color: rgb(228, 155, 73); /* Change background color on hover */
+}
+
+/* Styling for the footer */
+footer {
+    text-align: center; /* Center-align text */
+    margin-top: 40px; /* Add top margin */
+    padding: 10px 0; /* Add vertical padding */
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+}
+
+/* Styling for interests section */
+#interests ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+#interests li {
+    font-size: 1.2rem; /* Set font size */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+/* Styling for project links */
+#projects ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+#projects li {
+    font-size: 1.2rem; /* Set font size */
+    margin-bottom: 15px; /* Add bottom margin */
+}
+
+#projects a {
+    color: #333; /* Set link color */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+#projects a:hover {
+    color: #ffa500; /* Change color on hover */
+}
