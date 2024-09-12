@@ -77,7 +77,9 @@ p {
     width: 50px; /* Set icon width */
     height: 50px; /* Set icon height */
 }
-
+.skills-icon img:hover {
+     color: #ffa500;
+}
 /* Styling for the education section */
 #education ul {
     list-style: none; /* Remove default list styling */
