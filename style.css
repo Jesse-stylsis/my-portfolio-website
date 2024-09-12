@@ -13,7 +13,7 @@ body {
     padding: 20px; /* Add padding around the content */
 
     /* Background styling */
-    background-image: url('https://img.freepik.com/free-photo/top-view-desk-dark-concept-with-copy-space_23-2148459511.jpg?size=626&ext=jpg&ga=GA1.2.1294061073.1726047689&semt=ais_hybrid');
+    background-image: url('https://img.freepik.com/free-photo/top-view-desk-dark-concept-with-copy-space_23-2148459511.jpg?size=626&ext=jpg&ga=GA1.2.1294061073.1726047689&semt=ais_hybrid'); /* Background image */
     background-size: cover; /* Cover the entire background */
     background-repeat: no-repeat; /* Do not repeat the background image */
     background-position: center; /* Center the background image */
