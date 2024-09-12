@@ -17,7 +17,6 @@ Welcome to the portfolio website of Twum-Boama Jesse. This site showcases my ski
 
 - **HTML5:** Structuring the content of the website.
 - **CSS3:** Styling and layout of the website.
-- **JavaScript:** (If applicable) For interactive elements.
 - **Getform.io:** For processing the contact form submissions.
 
 ## File Structure
